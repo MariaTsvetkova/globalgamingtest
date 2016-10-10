@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+
+<div class="container">
+	<div class="row header-menu">
+		<div class="col-xs-6 col-md-4">
+			<div class="blue title-modal"><strong>Create new </strong></div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-8">
+			<button class="button-header-menu active" id="reservation" >
+				Reservation
+			</button>
+			<button class="button-header-menu" id="walk_in">
+				Walk-in
+			</button>
+<div class="right title-modal"><button class="button-decoration-none"><img src="img/closebtn.png" alt="Add search" /></button></div>
+			<!--<button type="button" class="close close-btn">&times;</button>-->
+		</div>
+	</div>
+
+	<div class="row search-container">
+		<div class="col-xs-6 col-md-4  ">
+			<div class="left title-modal"><button class="button-decoration-none"><img src="img/search.png" alt="Search" /></button><span>Search by guest name or mobile</span></div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-8 ">
+			<div class="right title-modal"><button class="button-decoration-none"><img src="img/searchadd.png" alt="Add search" /></button></div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-6 col-md-4 border-right ">
+			<div class="reservation-details-container">
+				<div class="row details-title">
+					<strong>RESERVATION DETAILS</strong>
+				</div>
+				<div class="row">
+					<div class="col-xs-6 col-sm-4">Date</div>
+					<div class="col-xs-6 col-sm-4">Wed,Jun,16</div>
+					<div class="col-xs-6 col-sm-4">
+						<div>
+							<button class="button-decoration-none"><img src="img/leftarrow.png" alt="Decrease date" /></button>
+							<button class="button-decoration-none"><img src="img/rightarrow.png" alt="Increase date" /></button>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-6 col-sm-4">Time</div>
+					<div class="col-xs-6 col-sm-4">08:15 PM</div>
+					<div class="col-xs-6 col-sm-4">
+						<div>
+							<button class="button-decoration-none"><img src="img/leftarrow.png" alt="Decrease time" /></button>
+							<button class="button-decoration-none"><img src="img/rightarrow.png" alt="Increase time" /></button>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-6 col-sm-4">Covers</div>
+					<div class="col-xs-6 col-sm-4">11</div>
+					<div class="col-xs-6 col-sm-4">
+						<div>
+							<button class="button-decoration-none"><img src="img/leftarrow.png" alt="Decrease covers" /></button>
+							<button class="button-decoration-none"><img src="img/rightarrow.png" alt="Increase covers" /></button>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-6 col-sm-4">Tat</div>
+					<div class="col-xs-6 col-sm-4">01:30h</div>
+					<div class="col-xs-6 col-sm-4">
+						<div>
+							<button class="button-decoration-none"><img src="img/leftarrow.png" alt="Decrease tat" /></button>
+							<button class="button-decoration-none"><img src="img/rightarrow.png" alt="Increase tat" /></button>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-6 col-md-4  ">
+						Notes
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-8 ">
+						Here is some text
+					</div>
+
+				</div>
+				<div class="row">
+					<div class="col-xs-6 col-md-4  ">
+						Origin
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-8 ">
+						<div class="btn-group origion-switcher" data-toggle="buttons">
+							  <label class="btn btn-primary active">
+							    <input type="radio" name="options" id="option1" autocomplete="off" checked>Phone
+							  </label>
+							  <label class="btn btn-primary">
+							    <input type="radio" name="options" id="option2" autocomplete="off">In-person
+							  </label>
+							</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-8 border-left">
+			
+			<div class="row details-title">
+				<div class="left"><strong>TABLE DETAILS</strong></div>
+				<div class="right title-tables-available-number"><span id="tables_available_number">XX</span> TABLES AVAILABLE</div>
+			</div>
+			<div class="row">
+				  
+				<ul class="nav navbar-nav">
+					<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Section<span class="caret"></span></a>
+				        <ul class="dropdown-menu">
+				          	<li><a href="#">Patio</a></li>
+				          	<li><a href="#">Ground floor</a></li>
+				          	<li><a href="#">Terrace</a></li>
+				        </ul>
+				    </li>
+				    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Table type<span class="caret"></span></a>
+				        <ul class="dropdown-menu">
+				          	<li><a href="#">Private dinning</a></li>
+				          	<li><a href="#">Vip only</a></li>
+				          	<li><a href="#">Open table</a></li>
+				        </ul>
+				    </li>
+				    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Table #<span class="caret"></span></a>
+				        <ul class="dropdown-menu">
+				          	<li><a href="#">3A</a></li>
+				          	<li><a href="#">4B</a></li>
+				          	<li><a href="#">13</a></li>
+				        </ul>
+				    </li>
+			    </ul>
+			</div>
+			<div class="row filters-row">
+				<div class="left ">Apply filters</div>
+				<div class="filtres-list">
+					<div class="filter-item"> Dinner <button type="button" class="close close-btn">&times;</button> </div>
+					<div class="filter-item"> Cool <button type="button" class="close close-btn">&times;</button> </div>
+				</div>
+				<div class="add-filter"><button class="button-decoration-none"><img src="img/addfiltresbtn.png" alt="Add filter" /></button></div>
+			</div>
+			<div class="row">
+				<table class="table table-hover">
+				    <thead>
+				      	<tr>
+					        <th>#</th>
+					        <th>Section</th>
+					        <th>Type</th>
+					        <th>Min</th>
+					        <th>Max</th>
+					        <th>Blocked</th>
+					        <th>#</th>
+				      	</tr>
+				    </thead>
+				    <tbody>
+				      	<tr>
+					        <td>3A</td>
+					        <td>Patio</td>
+					        <td>Private dining</td>
+					        <td>2</td>
+					        <td>4</td>
+					        <td>-</td>
+					        <td>&nbsp;</td>
+				      	</tr>
+				      	<tr>
+					        <td>4B</td>
+					        <td>Ground Floor</td>
+					        <td>VIP only</td>
+					        <td>2</td>
+					        <td>4</td>
+					        <td>VIP</td>
+					        <td>&nbsp;</td>
+				      	</tr>
+				      	<tr class="active-row">
+					        <td>13</td>
+					        <td>Terrace</td>
+					        <td>Open table</td>
+					        <td>2</td>
+					        <td>4</td>
+					        <td>Owner</td>
+					        <td><a class="btn remove-details-btn" href="#"><i class="roundbutton">&times;</i></a></td>
+				      	</tr>
+				    </tbody>
+				</table>
+			</div>
+			
+		</div>
+
+	</div>
+	<div class="row footer-modal">
+		
+			<div class="btn-footer-group right">
+				<button type="button" class="btn">Reset</button>
+				<button type="button" class="btn">Create reservation</button>
+			</div>
+	
+	</div>
+
+	
+</div>
+	<script>
+		jQuery(".button-header-menu").click(function(){
+		    jQuery(".button-header-menu").removeClass('active');
+		    jQuery(this).toggleClass('active'); 
+		});
+	</script>
+</body>
+</html>

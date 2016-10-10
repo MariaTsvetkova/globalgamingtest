@@ -1,0 +1,209 @@
+
+html{
+	height: 100%;
+}
+
+body{
+	width: 100%;   
+	background: #08ACBF;
+	background: -webkit-linear-gradient(#08ACBF, #0EB7AF, #08ACBF); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#08ACBF, #0EB7AF, #08ACBF); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#08ACBF, #0EB7AF, #08ACBF); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#08ACBF, #0EB7AF, #08ACBF); /* Standard syntax */
+}  
+
+.container{
+	margin-top: 10%;
+	margin-bottom: 10%;
+	border-radius: 8px;
+	background-color: #FFFFFF;
+	padding-left: 30px;
+	padding-right: 30px;
+
+}
+
+
+.blue {
+	color: #2C7EDC;
+}
+
+.blue-background{
+	background-color: #2C7EDC;
+	color: #FFFFFF;
+}
+
+.header-menu {
+	font-size: 16px;
+}
+.button-header-menu{
+    padding: 28px 32px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    border: none; 
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px;
+    cursor: pointer;
+
+    outline: none;
+-moz-outline-style: none;
+    
+}
+
+
+.button-decoration-none{
+    background-color: white;
+    border: none; 
+    display: inline-block;
+    margin: 0px;
+    cursor: pointer;
+    outline: none;
+    padding: 0px;
+-moz-outline-style: none;
+}
+
+ 
+.button-header-menu.active{
+    border-bottom: 5px solid #2C7EDC; 
+}
+.close-btn{
+	background-image: url(img/closebtn.png);
+	width: 22px;
+	height: 22px;
+}
+
+.search-container{
+	border-top: 3px solid #F6F7FA; 
+	border-bottom: 2px solid #F6F7FA;
+	min-height: 60px;
+}
+
+.left{
+	float: left;	
+}
+.right {
+	float: right;	
+}
+
+.filter-item{
+	display: inline-block;
+	border-radius: 8px;
+	background-color: #2C7EDC;
+	color: #FFFFFF;
+	padding: 3px;
+	margin-left: 4px;
+}
+.inline{
+	display: inline-block;
+}
+
+
+.fill { 
+    min-height: 100%;
+    height: 100%;
+}
+.filters-row{
+	display: inline-flex;
+}
+
+.title-modal{
+	    padding: 22px 0px;
+}
+
+
+
+.title-tables-available-number{
+	color: gray;
+}
+
+.roundbutton{
+    display: block;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    border: 1px solid green;
+    text-align: center;
+    color: green;
+    font-size: 16px;
+    margin: 0px;
+    font-weight: bold;
+    background-color: white;
+
+}
+
+.remove-details-btn{
+	margin: 0px;
+	padding: 0px;
+}
+
+.footer-modal{
+	background-color: #F6F7FA;
+}
+
+.table{
+	margin-top: 15px;
+}
+
+.table tbody tr{
+	background-color: #F6F7FA;
+	border: 5px solid white; 
+}
+
+.table tbody tr.active-row, .table tbody tr:active{
+	background-color: green;
+	color: white;
+}
+
+.table thead tr th{
+	font-weight: normal;
+	color: gray;
+}
+
+
+.reservation-details-container .row{
+	min-height: 55px;
+	border-bottom: 2px solid #F6F7FA;
+}
+
+.origion-switcher{
+	height: 33px;
+}
+
+.btn-primary{
+	background-color: white ;
+	color: gray;
+	border-color: gray;
+}
+.btn-primary.active, .btn-primary:active {
+	background-color: #2C7EDC;
+    border-color: #2C7EDC;
+}
+
+.border-right{
+	border-right: 2px solid #F6F7FA
+}
+
+.border-left{
+	    border-left: 2px solid #F6F7FA
+}
+
+.btn-footer-group{
+	margin-bottom: 10px;
+	margin-top: 10px;
+
+}
+.btn-footer-group button{
+	background-color: white;
+	color: #2C7EDC;
+	border: 1px solid gray;
+}
+
+.btn-footer-group button:active{
+	color: gray;
+}
+
+.details-title{
+	margin-top: 20px;
+}
